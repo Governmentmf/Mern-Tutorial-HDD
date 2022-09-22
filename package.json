@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Goal setter app for setting up personal and professional goals",
   "main": "server.js",
-  "scripts": { 
+  "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
   },
@@ -13,6 +13,7 @@
     "colors": "^1.4.0",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
     "mongoose": "^6.6.1"
   },
   "devDependencies": {
